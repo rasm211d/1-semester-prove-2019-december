@@ -6,12 +6,18 @@ public class QuickmathsTest {
 
     @Test
     public void testSum() {
-        // TODO Din kode her
+        Quickmaths q = new Quickmaths();
+        assertEquals(2, q.sum(1, 1));
+        assertEquals(4, q.sum(2, 2));
+        assertEquals(4, q.sum(1, 3));
     }
 
     @Test
     public void testGennemsnit() {
-        // TODO Din kode her
+        Quickmaths q = new Quickmaths();
+        assertEquals(2, q.gennemsnit(2, 2));
+        assertEquals(2, q.gennemsnit(3,1));
+        assertEquals(3, q.gennemsnit(5,1));
     }
 
 }
