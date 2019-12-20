@@ -1,5 +1,5 @@
 package quiz;
 
 public interface Translateable {
-    String translateable();
+    String translateable(Language language);
 }
