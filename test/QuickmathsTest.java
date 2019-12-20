@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 public class QuickmathsTest {
 
+
+    //Her er der testet om sum og gennemsnit metoderne fungere ordentligt, hvilket de gør
     @Test
     public void testSum() {
         Quickmaths q = new Quickmaths();
