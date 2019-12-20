@@ -27,7 +27,7 @@ public class Person {
     int eksamenskarakter[]; // 7, 12, -3, 4, 2, 10
     Date opdateretDato; // Sun Jan 08 00:00:00 CET 1978
 
-    // TODO Vis eksempler på typecasting
+    //Denne metode oversætter alle givne variabler til tekst.
     @Override
     public String toString() {
         return "Navn: " + navn + "\nAlder: " + alder + "\nBy: " + by + "\nVej: " + vej + "\nHusnummer: " + husnummer +
@@ -36,6 +36,7 @@ public class Person {
                 "\nEksamenskarakter" + Arrays.toString(eksamenskarakter) + "\nOpdatereret Dato " + opdateretDato;
     }
 
+    //her gives variable værdier og udskrives til sidst med toString metodekaldet.
     public static void main(String[] args) {
 
         Person person = new Person();

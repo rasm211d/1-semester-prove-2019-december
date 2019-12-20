@@ -9,10 +9,12 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Main {
 
+    //Main uskriver udfaldet af hello metoden.
     public static void main(String[] args) {
         System.out.println(hello(""));
     }
 
+    //Denne metode modtager et navn af typen String, i metoden tjekkes der for om navn er tom eller hvad der er skrevet og sender det retur.
     public static String hello(String navn) {
         if (navn.equals("")) {
             return "Hello World!";
