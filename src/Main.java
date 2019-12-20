@@ -15,10 +15,10 @@ public class Main {
 
     public static String hello(String navn) {
         if (navn.equals("")) {
-            return "Hello World";
+            return "Hello World!";
         }
         else {
-            return "Hello " + navn;
+            return "Hello " + navn + "!";
         }
 
     }
