@@ -1,0 +1,2 @@
+INSERT INTO quiz.sporgsmaal (id, spørgsmålsTekst, svar) VALUES (1, 'hvor gammel er Rasmus?', '21');
+INSERT INTO quiz.sporgsmaal (id, spørgsmålsTekst, svar) VALUES (4, 'Hvad hedder Jannerup til fornavn?', 'Rasmus');
