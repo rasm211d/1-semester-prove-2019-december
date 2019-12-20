@@ -13,6 +13,5 @@ public class Quiz {
         sporgsmaal1.setPoint(10);
         sporgsmaal1.setRigtigtSvarIndex(1);
 
-
     }
 }

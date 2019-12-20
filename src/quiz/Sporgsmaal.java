@@ -42,4 +42,7 @@ public class Sporgsmaal {
     public int getRigtigtSvarIndex() {
         return rigtigtSvarIndex;
     }
+
+
+
 }
