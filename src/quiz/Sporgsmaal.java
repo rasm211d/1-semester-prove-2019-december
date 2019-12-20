@@ -2,6 +2,7 @@ package quiz;
 
 import java.util.ArrayList;
 
+//Dette er alle elementerne et spørgsmål skal indeholde.
 public class Sporgsmaal {
     private String sporgsmaalsTekst;
     private int point;
@@ -20,7 +21,10 @@ public class Sporgsmaal {
     }
 
     public void setPoint(int point) {
-        this.point = point;
+        if(point > 10 || point < 0)
+            throw new IllegalArgumentException("Point skal være mellem 1 og 10");
+        else
+            this.point = point;
     }
 
     public int getPoint() {

@@ -1,7 +1,7 @@
 package quiz;
 
 public class Quiz {
-
+    //Her er der oprettet et spørgsmåls Objekt og givet det passende værdier.
     public static void main(String[] args) {
         Sporgsmaal sporgsmaal1 = new Sporgsmaal();
         sporgsmaal1.setSporgsmaalsTekst("Hvor Gammel er Rasmus?");
